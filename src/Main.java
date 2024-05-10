@@ -11,97 +11,97 @@ public class Main {
 
 
 
-            int[] QuickRandom = randomData.clone();
+            int[] quickRandom = randomData.clone();
             startTime = System.nanoTime();
-            QuickSort.sort(QuickRandom);
+            QuickSort.sort(quickRandom);
             endTime = System.nanoTime();
             long quickRandomTime = endTime - startTime;
 
-            int[] QuickSorted = sortedData.clone();
+            int[] quickSorted = sortedData.clone();
             startTime = System.nanoTime();
-            QuickSort.sort(QuickSorted);
+            QuickSort.sort(quickSorted);
             endTime = System.nanoTime();
             long quickSortedTime = endTime - startTime;
 
-            int[] QuickReverseSorted = reverseSortedData.clone();
+            int[] quickReverseSorted = reverseSortedData.clone();
             startTime = System.nanoTime();
-            QuickSort.sort(QuickReverseSorted);
+            QuickSort.sort(quickReverseSorted);
             endTime = System.nanoTime();
             long quickReverseSortedTime = endTime - startTime;
 
 
-            int[] MergeRandom = randomData.clone();
+            int[] mergeRandom = randomData.clone();
             startTime = System.nanoTime();
-            MergeSort.sort(MergeRandom);
+            MergeSort.sort(mergeRandom);
             endTime = System.nanoTime();
             long mergeRandomTime = endTime - startTime;
 
-            int[] MergeSorted = sortedData.clone();
+            int[] mergeSorted = sortedData.clone();
             startTime = System.nanoTime();
-            MergeSort.sort(MergeSorted);
+            MergeSort.sort(mergeSorted);
             endTime = System.nanoTime();
             long mergeSortedTime = endTime - startTime;
 
-            int[] MergeReverseSorted = reverseSortedData.clone();
+            int[] mergeReverseSorted = reverseSortedData.clone();
             startTime = System.nanoTime();
-            MergeSort.sort(MergeReverseSorted);
+            MergeSort.sort(mergeReverseSorted);
             endTime = System.nanoTime();
             long mergeReverseSortedTime = endTime - startTime;
 
 
-            int[] HeapRandom = randomData.clone();
+            int[] heapRandom = randomData.clone();
             startTime = System.nanoTime();
-            HeapSort.sort(HeapRandom);
+            HeapSort.sort(heapRandom);
             endTime = System.nanoTime();
             long heapRandomTime = endTime - startTime;
 
-            int[] HeapSorted = sortedData.clone();
+            int[] heapSorted = sortedData.clone();
             startTime = System.nanoTime();
-            HeapSort.sort(HeapSorted);
+            HeapSort.sort(heapSorted);
             endTime = System.nanoTime();
             long heapSortedTime = endTime - startTime;
 
-            int[] HeapReverseSorted = reverseSortedData.clone();
+            int[] heapReverseSorted = reverseSortedData.clone();
             startTime = System.nanoTime();
-            HeapSort.sort(HeapReverseSorted);
+            HeapSort.sort(heapReverseSorted);
             endTime = System.nanoTime();
             long heapReverseSortedTime = endTime - startTime;
 
 
-            int[] InsertionRandom = randomData.clone();
+            int[] insertionRandom = randomData.clone();
             startTime = System.nanoTime();
-            InsertionSort.sort(InsertionRandom);
+            InsertionSort.sort(insertionRandom);
             endTime = System.nanoTime();
             long insertionRandomTime = endTime - startTime;
 
-            int[] InsertionSorted = sortedData.clone();
+            int[] insertionSorted = sortedData.clone();
             startTime = System.nanoTime();
-            InsertionSort.sort(InsertionSorted);
+            InsertionSort.sort(insertionSorted);
             endTime = System.nanoTime();
             long insertionSortedTime = endTime - startTime;
 
-            int[] InsertionReverseSorted = reverseSortedData.clone();
+            int[] insertionReverseSorted = reverseSortedData.clone();
             startTime = System.nanoTime();
-            InsertionSort.sort(InsertionReverseSorted);
+            InsertionSort.sort(insertionReverseSorted);
             endTime = System.nanoTime();
             long insertionReverseSortedTime = endTime - startTime;
 
 
-            int[] SelectionRandom = randomData.clone();
+            int[] selectionRandom = randomData.clone();
             startTime = System.nanoTime();
-            SelectionSort.sort(SelectionRandom);
+            SelectionSort.sort(selectionRandom);
             endTime = System.nanoTime();
             long selectionRandomTime = endTime - startTime;
 
-            int[] SelectionSorted = sortedData.clone();
+            int[] selectionSorted = sortedData.clone();
             startTime = System.nanoTime();
-            SelectionSort.sort(SelectionSorted);
+            SelectionSort.sort(selectionSorted);
             endTime = System.nanoTime();
             long selectionSortedTime = endTime - startTime;
 
-            int[] SelectionReverseSorted = reverseSortedData.clone();
+            int[] selectionReverseSorted = reverseSortedData.clone();
             startTime = System.nanoTime();
-            SelectionSort.sort(SelectionReverseSorted);
+            SelectionSort.sort(selectionReverseSorted);
             endTime = System.nanoTime();
             long selectionReverseSortedTime = endTime - startTime;
 
