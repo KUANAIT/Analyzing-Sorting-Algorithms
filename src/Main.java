@@ -18,7 +18,7 @@ public class Main {
             long quickRandomTime = endTime - startTime;
 
             int[] copyQuickSorted = sortedData.clone();
-                startTime = System.nanoTime();
+            startTime = System.nanoTime();
             QuickSort.sort(copyQuickSorted);
             endTime = System.nanoTime();
             long quickSortedTime = endTime - startTime;
