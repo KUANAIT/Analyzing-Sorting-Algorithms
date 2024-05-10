@@ -15,12 +15,12 @@ public class HeapSort {
 
     private static void heapify(int[] arr, int n, int i) {
         int largest = i;
-        int left = 2 * i + 1;
-        int right = 2 * i + 2;
-        if (left < n && arr[left] > arr[largest])
-            largest = left;
-        if (right < n && arr[right] > arr[largest])
-            largest = right;
+        int l = 2 * i + 1;
+        int r = 2 * i + 2;
+        if (l < n && arr[l] > arr[largest])
+            largest = l;
+        if (r < n && arr[r] > arr[largest])
+            largest = r;
         if (largest != i) {
             int temp = arr[i];
             arr[i] = arr[largest];
