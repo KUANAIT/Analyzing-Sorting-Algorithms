@@ -2,22 +2,22 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class DataGenerator {
-    public static int[] generateRandomData(int size) {
+    public static int[] generateRandomArray(int size) {
         Random random = new Random();
-        int[] data = new int[size];
+        int[] array = new int[size];
         for (int i = 0; i < size; i++)
-            data[i] = random.nextInt();
-        return data;
+            array[i] = random.nextInt();
+        return array;
     }
 
-    public static int[] generateSortedData(int size) {
-        int[] data = generateRandomData(size);
+    public static int[] generateSortedArray(int size) {
+        int[] data = generateRandomArray(size);
         Arrays.sort(data);
         return data;
     }
 
-    public static int[] generateReverseSortedData(int size) {
-        int[] data = generateSortedData(size);
+    public static int[] generateReverseSortedArray(int size) {
+        int[] data = generateSortedArray(size);
         reverseArray(data);
         return data;
     }

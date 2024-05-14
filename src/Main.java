@@ -3,9 +3,9 @@ public class Main {
         int[] sizes = {1000, 10000};
 
         for (int size : sizes) {
-            int[] randomData = DataGenerator.generateRandomData(size);
-            int[] sortedData = DataGenerator.generateSortedData(size);
-            int[] reverseSortedData = DataGenerator.generateReverseSortedData(size);
+            int[] randomData = DataGenerator.generateRandomArray(size);
+            int[] sortedData = DataGenerator.generateSortedArray(size);
+            int[] reverseSortedData = DataGenerator.generateReverseSortedArray(size);
 
             long startTime, endTime;
 
